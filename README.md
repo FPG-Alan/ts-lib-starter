@@ -9,6 +9,7 @@ A library starter template use Typescript and Rollup, inspired by [The best Roll
 - Bundle by `Rollup`, use `Esbuild` as TS compilers and minifier [rollup-plugin-esbuild](https://github.com/egoist/rollup-plugin-esbuild#rollup-plugin-esbuild)
 - Automaticlly `.d.ts` definition files by dts plugin [rollup-plugin-dts](https://github.com/Swatinem/rollup-plugin-dts)
 - Example page powered by Vite, out of box
+- use PNPM as package manager
 - Use Jest as test framefork
 - Commitizen friendly
 
@@ -21,3 +22,5 @@ pnpm dlx degit --force https://github.com/FPG-Alan/ts-lib-starter
 ```
 
 2. modify value of `[name/main/module/typings]` in package.json with your lib name
+
+3. modify value of dep in example's package.json
