@@ -1,3 +1,3 @@
-export default function () {
-  console.log("hello world");
+export default function sum(a: number, b: number) {
+  return a + b;
 }
